@@ -1,7 +1,7 @@
 # Scroll-nav
 > Scroll nav
 
-1. Just write code (HTML):
+> # 1. Just write code (HTML):
 ```s
    <nav class="navbar navbar-default navbar-fixed-top bg transition">
           .....
@@ -10,9 +10,9 @@
    <section style="height:1000px;"> </section>
 ```
 
-2. Just write code (CSS):
+> #  2. Just write code (CSS):
 ```s
-	 <style type="text/css">
+<style type="text/css">
     .bg {
       background: white;
       width: 100%;
@@ -43,9 +43,9 @@
   </style>
 ```
 
-3. Just write code (JavaScript):
+> # 3. Just write code (JavaScript):
 ```s
-	<script type="text/javascript">
+<script type="text/javascript">
   $(window).scroll(function() {
     if ($(window).scrollTop() > 100 ){
       $('.bg').addClass('show');
@@ -56,4 +56,4 @@
   </script>
 ```
 
-4. Then view result in your Browser.
+> # 4. Then view result in your Browser.
